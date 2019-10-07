@@ -32,8 +32,12 @@
   }
   p {
     position: absolute;
-    top: 167px;
+    top: 190px;
     padding: 20px;
+    color: $sidebar-title-color;
+    font-family: $font-NotoRegular;
+    font-size: $right-subtitle-p;
+    width: 247px;
   }
 }
 .s-container {

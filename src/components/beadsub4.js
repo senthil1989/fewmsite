@@ -235,8 +235,8 @@ function BeadComponentfour() {
           </tbody>
         </table>
       </div>
-      <Inquirybtn name={"Product inquiry"} img={Imgfunction("b_arrow")} />
-      <Inquirybtn name={"Xentech site"} img={Imgfunction("b_arrow")} />
+      <Inquirybtn name={"ProductInquiry"} img={Imgfunction("b_arrow")} />
+      <Inquirybtn name={"XentechSite"} img={Imgfunction("b_arrow")} />
       
     </>
   );

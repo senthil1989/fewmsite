@@ -117,7 +117,7 @@ PROCESS KIT_SHEET, OUTER COOLING PL</figcaption>
           </div>
         </div>
       </div>
-        <Inquirybtn name={"Product inquiry"} img={Imgfunction('b_arrow')}/>
+        <Inquirybtn name={"ProductInquiry"} img={Imgfunction('b_arrow')}/>
     </>
 )
 }

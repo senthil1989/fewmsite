@@ -354,7 +354,7 @@ function FdtComponenttwo() {
         </table>
       </div>
       <div>¹IPPC Intergovernmental Panel on Climate Change.</div>
-      <Inquirybtn name={"Product inquiry"} img={Imgfunction("b_arrow")} />
+      <Inquirybtn name={"ProductInquiry"} img={Imgfunction("b_arrow")} />
     </>
   );
 }

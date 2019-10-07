@@ -77,7 +77,7 @@ function SideBar(props) {
           keyid: 3,
           path: "/gases",
           sidebarName: "Gases",
-          sideContent: "MessagefromCEO",
+          sideContent: `${t('Gases_icon_content')}`,
           icon: "vector_1",
           submenu: [
             {
@@ -117,7 +117,7 @@ function SideBar(props) {
           keyid: 4,
           path: "/chemical/H₃PO₄",
           sidebarName: "Chemical",
-          sideContent: "MessagefromCEO",
+          sideContent: `${t('Chemical_icon_content')}`,
           icon: "vector_2",
           submenu: [
             {
@@ -145,7 +145,7 @@ function SideBar(props) {
           keyid: 5,
           path: "/gasket/Flex/DX/EX+Localized-Gasket-Parts",
           sidebarName: "Gasket",
-          sideContent: "MessagefromCEO",
+          sideContent: `${t('Gasket_icon_content')}`,
           icon: "vector_3",
           submenu: [
             {
@@ -162,7 +162,7 @@ function SideBar(props) {
           keyid: 6,
           path: "/bead/RF-Series",
           sidebarName: "Bead",
-          sideContent: "MessagefromCEO",
+          sideContent: `${t('Bead_icon_content')}`,
           icon: "vector_4",
           submenu: [
             {
@@ -202,7 +202,7 @@ function SideBar(props) {
           keyid: 7,
           path: "/fdt/NOVEC-1230-Manual-fire-extinguisher",
           sidebarName: "FDT",
-          sideContent: "MessagefromCEO",
+          sideContent: `${t('FDT_icon_content')}`,
           icon: "vector_5",
           submenu: [
             {
@@ -224,7 +224,7 @@ function SideBar(props) {
           keyid: 8,
           path: "/shuttervalve/AVS-50",
           sidebarName: "ShutterValve",
-          sideContent: "MessagefromCEO",
+          sideContent: `${t('Shutter_icon_content')}`,
           icon: "shutter",
           submenu: [
             {

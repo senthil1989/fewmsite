@@ -1,15 +1,16 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
-const Inquirybtn=({name,img})=>{
-
-    if(name =="Xentech site"){
+function Inquirybtn({name,img}){
+    const {t} = useTranslation();
+    if(name ==="XentechSite"){
         return (
-            <button  className="inquirybtn"><a href='https://www.xentech.kr' target="_blank">{name}{img}</a></button>
+            <button  className="inquirybtn"><a href='https://www.xentech.kr' target="_blank">{`${t(name)}`}{img}</a></button>
         )
     }
     else {
     return (
-        <button className="inquirybtn">{name}{img}</button>
+        <button className="inquirybtn">{`${t(name)}`}{img}</button>
     )
     }
 }

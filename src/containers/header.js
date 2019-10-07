@@ -232,13 +232,13 @@ function TemporaryDrawer({handleChange}) {
         {list.items.map((text,index) => (
          <React.Fragment key={text.name}> 
           <ListItem button  key={text.id} ref={domRef} onClick={()=>handleClick(index)}>
-          <ListItemText primary={text.name} /> 
+          <ListItemText className="drawerText" primary={text.name} /> 
         </ListItem>
         <Divider />
         <Collapse in={expanded[index]}  key={text.id+text.name}  timeout="auto" unmountOnExit>
           <List component="div" disablePadding key={text.id+index.toString()}>
             {text.submenu.map((submenus, index)=>{ return(<Link to={submenus.url}><ListItem button  key={submenus.id+"sub"} className={classes.nested} >
-            <ListItemText key={submenus.id} primary={submenus.sname} onClick={()=>handleChange(submenus.id, submenus)} />
+            <ListItemText className="drawerTextsub" key={submenus.id} primary={submenus.sname} onClick={()=>handleChange(submenus.id, submenus)} />
             </ListItem></Link>)})}
           </List>
         </Collapse>
@@ -269,6 +269,21 @@ function TemporaryDrawer({handleChange}) {
       </div>
       <Drawer anchor="right" open={state.right} onClose={toggleDrawer('right', false)}>
         {sideList('right')}
+        <div class="mMar">
+                    <div class="terms_area">
+                        <div class="sns">
+                            <a href="privatepolicy.php">Privacy policy</a><span>|</span>
+                            <a href="greet.php">About the company</a><span>|</span>
+                            <a href="legal.php">Legal Notices</a>
+                        </div>
+                        <p>Head office : TEL 031-221-6782 FAX 031-221-6783 </p>
+                        <p>Jeunggpyeong : TEL 043-838-9562 FAX 043-838-9563</p>
+                    </div>
+
+                    <div class="company_info">
+                        Copyright (c) <a href="login.php?status=">주식회사 퓨엠</a>All rights reserved
+                    </div>
+                </div>
       </Drawer>
     </>
   );

@@ -35,7 +35,14 @@
         "Historypage_2017February":"February - The 1st place of business in Jeungppyeong (The 2nd Jeungpyeong Industrial Complex) was completed.",
         "Historypage_2014October":"October - 6N 10%GeH₄/H₂ was supplied to SK hynix Inc.",
         "Historypage_2014May":"May - 4N8 Si₂H₆ was supplied to SK hynix Inc..",
-
+        Gases_icon_content:`Supply of special gas and general industrial gas of the semiconductor industry`,
+        Chemical_icon_content:`In semiconductor water etching and cleaning process Used chemicals and inorganic coating chemicals`,
+        Gasket_icon_content:`The cross-section is a circular sealing element. Is usually used in fixed application fields`,
+        Bead_icon_content:`Diffusion and reflective bead for optical films`,
+        FDT_icon_content:`Automatic fire fighting equipment for small space in case of fire in Cubicles`,
+        Shutter_icon_content:`The device automatically close a valve of the gas cylinder in emergency including fires, gas leak, etc.`,
+        ProductInquiry:"Product inquiry",
+        XentechSite: "Xentech Site",
         Advantages: "Advantages",
         "Flexibility to use other packages": { "dei":"ghghfh hghjgg hg hgh hghjgjhhjg h hj hj" }
       }
@@ -75,6 +82,14 @@
         "Historypage_2017February":"2월 - 증평1사업장(증평2일반산업단지) 준공",
         "Historypage_2014October":"10 월 - 6N 10%GeH₄/H₂ SK하이닉스 공급",
         "Historypage_2014May":"5 월 - 4N8 Si₂H₆ SK 하이닉스 공급",
+        Gases_icon_content:`반도체 산업의 특수 가스 및 일반 산업용 가스 공급`,
+        Chemical_icon_content:`반도체 웨이퍼 식각과 클리닝 공정에 사용 되는 화학 물질과 무기코팅 화학물`,
+        Gasket_icon_content:`횡단면이 원형 실링요소이며 주로 고정응용 분야 사용`,
+        Bead_icon_content:`광학필름용 확산 및 반사비드`,
+        FDT_icon_content:`Cubicle 내부 화재 발생 시 소공간 자동소화장치`,
+        Shutter_icon_content:`화재, 가스누출 등의 비상상황 발생시 가스실린더의 밸브를 자동적으로 Close 하는 장치`,
+        ProductInquiry:"제품 상담문의",
+        XentechSite: "젠텍 홈페이지",
         Advantages: "利点",
         "Flexibility to use other packages": "他のパッケージを使用する柔軟性"
       }

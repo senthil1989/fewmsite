@@ -182,7 +182,7 @@ function FdtComponentone() {
                                     </div>
         <div><p>* The use of HCFC - 123  is stopped because it contains toxic substances in other countries. Now, it is just used as the fire extinguishing agent in Korea.
                                       **CO² fire extinguishers are unsuitable for being applied to fires of Class A.</p></div>
-      <Inquirybtn name={"Product inquiry"} img={Imgfunction("b_arrow")} />
+      <Inquirybtn name={"ProductInquiry"} img={Imgfunction("b_arrow")} />
     </>
   );
 }

@@ -114,7 +114,7 @@ function BeadComponenttwo() {
           </div>
         </div>
       </div>
-      <Inquirybtn name={"Product inquiry"} img={Imgfunction("b_arrow")} />
+      <Inquirybtn name={"ProductInquiry"} img={Imgfunction("b_arrow")} />
     </>
   );
 }
